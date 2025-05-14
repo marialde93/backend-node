@@ -3,7 +3,7 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { authSchema } from "../validators/authSchema.js";
 
-process.loadEnvFile();
+
 
 export const register = async (req, res) => {
   const { username, password } = req.body;
