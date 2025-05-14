@@ -4,7 +4,7 @@ import { connectDb } from "./config/mongo.js";
 import { authRouter } from "./routes/authRoutes.js";
 import { userRouter } from "./routes/userRoutes.js";
 
-process.loadEnvFile();
+
 
 const PORT = process.env.PORT;
 const app = express();
